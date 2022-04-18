@@ -98,7 +98,7 @@ for d in DATADIR:
 
         figure = plt.gcf()
         figure.set_size_inches(math.ceil(10*(ptet-ptst)), 4)
-        plt.gray()
+        #plt.gray()
         plt.savefig(w[:-4]+"-spec.png", bbox_inches='tight',pad_inches = 0, dpi=MYDPI)
         #plt.show()
         plt.close()
